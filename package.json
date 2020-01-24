@@ -1,0 +1,33 @@
+{
+  "name": "week1assignment",
+  "version": "1.0.0",
+  "description": "First assignment",
+  "main": "index.js",
+  "module": "main.js",
+  "scripts": {
+    "start": "npx ./index.js",
+    "test": "mocha -r esm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morio-uci/week1assignment.git"
+  },
+  "keywords": [
+    "node",
+    "school",
+    "assignment"
+  ],
+  "author": "John Morio Sakaguchi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/morio-uci/week1assignment/issues"
+  },
+  "homepage": "https://github.com/morio-uci/week1assignment#readme",
+  "dependencies": {
+    "esm": "^3.2.25"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^7.0.0"
+  }
+}
